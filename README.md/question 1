@@ -1,0 +1,10 @@
+Problem Description
+In a left rotation, elements of an array are shifted to the left by k positions, and the first k elements are placed at the end of the array. For example:
+
+Input: arr = [1, 2, 3, 4, 5], k = 2
+Output: [3, 4, 5, 1, 2]
+Solution Approach
+The solution:
+
+Shifts each element in the array to the left by one position in a loop until k rotations are achieved.
+Moves the first k elements to the end without using slicing, keeping it efficient and simple.
