@@ -1,0 +1,17 @@
+n = int(input())
+arr = list(map(int, input().split()))
+
+position = 0
+
+# Move non-zero elements to the beginning
+for num in arr:
+    if num != 0:
+        arr[position] = num
+        position += 1
+
+# Fill the rest of the array with zeros
+for i in range(position, n):
+    arr[i] = 0
+
+# Print the final result
+print(arr)
