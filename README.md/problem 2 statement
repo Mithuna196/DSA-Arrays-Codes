@@ -1,0 +1,15 @@
+Problem Description
+Given an array, the task is to move all the zero elements to the end while maintaining the order of non-zero elements.
+
+Example:
+Input:
+6
+0, 1, 2, 0, 3, 4
+
+Output: [1, 2, 3, 4, 0, 0]
+Solution Approach
+The algorithm works by:
+
+Iterating through the array and shifting all non-zero elements to the front.
+Filling the remaining positions with zeros after all non-zero elements are moved.
+This is done in-place to optimize memory usage.
